@@ -1,8 +1,5 @@
 import random
-
-
 words = ["python", "program", "hangman", "coding", "developer"]
-
 
 word = random.choice(words)
 guessed_letters = []
@@ -45,4 +42,5 @@ while attempts > 0:
 
 if attempts == 0:
     print("\n💀 Game Over!")
+
     print("The correct word was:", word)
